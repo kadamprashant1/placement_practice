@@ -20,7 +20,7 @@ def download_file(download_loc,db,fs,file_name):
 
 
 if __name__=="__main__":
-    client = pymongo.MongoClient("mongodb+srv://Prashant_kadam:prakdm@cluster0.3jkizbw.mongodb.net/test?retryWrites=true&w=majority")
+    client = pymongo.MongoClient("mongodb+srv://########@cluster0.3jkizbw.mongodb.net/test?retryWrites=true&w=majority")
     db = client.test
     db= client["users"]
     collection = db["my_records"]
