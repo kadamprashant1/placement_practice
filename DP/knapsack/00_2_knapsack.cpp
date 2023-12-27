@@ -9,7 +9,7 @@ int main(){
     int W = 50;
     int n = sizeof(profit) / sizeof(profit[0]);
 
-    // Initialize
+    
     for(int i=0; i<=n; i++){
         for(int j=0; j<=W; j++){
             if(i==0 || j==0){
@@ -28,6 +28,7 @@ int main(){
             }
         }
     }
+    
     cout << "Max profit is: " << t[n][W] << endl;
     return 0;
 }
